@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Gloria Oladipo",
+      "title": "Fury over early release of Chicago officer convicted of Black teenager’s murder",
+      "description": "Jason Van Dyke’s six-year sentence for killing Laquan McDonald was commuted by three years for ‘good behavior’",
+      "url": "https://amp.theguardian.com/us-news/2022/feb/01/chicago-police-officer-early-release-murder-black-teenager",
+      "urlToImage": "https://i.guim.co.uk/img/media/3e75b2688f5c3422532364cc72409527303c848b/0_51_5752_3453/master/5752.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1bda82f235f29e23976b534b7daa74dd",
+      "publishedAt": "2022-02-02T07:02:00+00:00",
+      "content": "The early release from prison of a white Chicago police officer who was sentenced to about seven years for the murder of a Black teenager in 2014 has sparked anger among relatives, community organize… [+5023 chars]"
+    },
+    {
+      "source": { "id": "google-news-au", "name": "Google News (Australia)" },
+      "author": "Ally Foster",
+      "title": "Alleged acid bath killer’s strange texts",
+      "description": "<p>A popular Sydney podcast host has shared a series of strange messages he received from a man who this week was accused of murdering his 19-year-old wife.</p>",
+      "url": "https://www.news.com.au/national/nsw-act/crime/alleged-acid-bath-murderers-strange-texts-begging-to-appear-on-podcast/news-story/d0c5eb83f8ac31c878f98652a75f9940",
+      "urlToImage": "https://content.api.news/v3/images/bin/61c80e497d849e52875c77654820f301",
+      "publishedAt": "2022-02-02T03:57:07+00:00",
+      "content": "Messages have emerged showing an alleged murderer whose teenage wife was found in an acid bath tub begging for a guest role on a podcast.A popular Sydney podcast host has shared a series of strange m… [+5012 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Antonio Olivo, Jasmine Hilton, Tom Jackman, Justin Wm. Moyer",
+      "title": "Two campus officers killed at Bridgewater College in Va., suspect arrested, officials say",
+      "description": "A suspect was taken into custody a short time later and charged with two counts of capital murder.",
+      "url": "https://www.washingtonpost.com/dc-md-va/2022/02/01/bridgewater-college-reported-shooting/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CELBUQEDTYI6ZFI4DYGMG4R6KM.jpg&w=1440",
+      "publishedAt": "2022-02-02T02:51:23+00:00",
+      "content": "The college, located near Harrisonburg, identified the victims as campus police officer John Painter, 55, and campus safety officer J.J. Jefferson, 48. A message sent to the Bridgewater community sai… [+6849 chars]"
+    },
+    {
+      "source": { "id": "fox-news", "name": "Fox News" },
+      "author": "Fox News",
+      "title": "Oregon Democratic Gov. Kate Brown agrees to halt clemency for felons until lawsuit plays out, lawyer says",
+      "description": "Democratic Oregon Gov. Kate Brown has agreed to stop granting clemency for felons between Feb. 2 and March 2, according to a lawyer for a group of murder victims' relatives who are suing the governor over her progressive pardon policy.",
+      "url": "https://www.foxnews.com/us/oregon-democratic-gov-kate-brown-clemency",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/05/kate-brown.jpg",
+      "publishedAt": "2022-02-02T02:07:22.8212658Z",
+      "content": "Democratic OregonGov. Kate Brown has agreed to stop granting clemency for felons between Feb. 2 and March 2, according to a lawyer for a group of murder victims' relatives who are suing the governor … [+3564 chars]"
+    },
+    {
+      "source": { "id": "msnbc", "name": "MSNBC" },
+      "author": "MSNBC",
+      "title": "Robert Durst takes stand in murder trial, says he didn't kill best friend",
+      "description": "Real estate scion and accused killer Robert Durst took the stand in his murder trial Monday, testifying in a Southern California courtroom that he didn’t kill his close friend Susan Berman.",
+      "url": "https://www.nbcnews.com/news/us-news/robert-durst-takes-stand-murder-trial-says-he-didn-t-n1276386",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2021_32/3497856/210809-robert-durst-ew-534p.jpg",
+      "publishedAt": "2021-08-09T23:56:00Z",
+      "content": "Real estate scion and accused killer Robert Durst took the stand in his murder trial Monday, testifying in a Southern California courtroom that he didnt kill his close friend Susan Berman.\r\nAsked by … [+1879 chars]"
+    }
+  ]
+}
