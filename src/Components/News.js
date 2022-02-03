@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import NewsItem from './NewsItem';
+import PropTypes from 'prop-types';
+
 
 export default class News extends Component {
+  static defaultProps={
+    country:"us",
+    category: 'politics'
+  }
+  static propTypes={
+    country: PropTypes.string,
+    category: PropTypes.string
+  }
   articles= []
   constructor(){
     super();
@@ -13,7 +23,7 @@ export default class News extends Component {
   }
 
   async componentDidMount(){
-    let url =" https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c4487027f2934ffa911420097d06d400&page=1&pageSize=12"
+    let url =` https://newsapi.org/v2/top-headlines?${this.props.country}&category=${this.props.category}&apiKey=c4487027f2934ffa911420097d06d400&page=1&pageSize=12&language=en`
     let data = await fetch(url);
     let parseData = await data.json()
     console.log(parseData)
@@ -21,7 +31,7 @@ export default class News extends Component {
   
   }
   handleNextclick= async()=>{
-    let url =` https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c4487027f2934ffa911420097d06d400&page=${this.state.page+1}pageSize=20`
+    let url =` https://newsapi.org/v2/top-headlines?${this.props.country}&category=${this.props.category}&apiKey=c4487027f2934ffa911420097d06d400&page=${this.state.page+1}pageSize=20&language=en`
     let data = await fetch(url);
     let parseData = await data.json()
     console.log(parseData)
@@ -31,7 +41,7 @@ export default class News extends Component {
   }
 
   handlePrevclick=async ()=>{
-    let url =` https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c4487027f2934ffa911420097d06d400&page=${this.state.page-1}pageSize=20`
+    let url =` https://newsapi.org/v2/top-headlines?${this.props.country}&category=${this.props.category}&apiKey=c4487027f2934ffa911420097d06d400&page=${this.state.page-1}pageSize=20&language=en`
     let data = await fetch(url);
     let parseData = await data.json()
     console.log(parseData)
@@ -54,7 +64,7 @@ export default class News extends Component {
 
              <div className="container d-flex justify-content-between">
              <button disabled={this.state.page<=1} type="button" class="btn btn-dark" onClick={this.handlePrevclick}>&larr; Previous</button>
-             <button type="button" class="btn btn-dark" onClick={this.handleNextclick}>Next &rarr; </button>
+             <button   type="button" class="btn btn-dark" onClick={this.handleNextclick}>Next &rarr; </button>
              </div>
     </div>;
   }
